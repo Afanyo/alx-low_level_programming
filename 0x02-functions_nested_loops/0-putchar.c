@@ -1,14 +1,16 @@
 #include "main.h"
-
 /**
-*main - function prints text as output
-*
-*Return:return 0
-*/
-int main(void)
+ * print_alphabet - function to print abc
+ *
+ * Return: 0
+ */
+void print_alphabet(void)
 {
-	char school[10] = "_putchar";
+	char c;
 
-	_putchar(school);
-	return (0);
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+_putchar('\n');
 }
